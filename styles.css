@@ -884,6 +884,14 @@ section { position: relative; }
   color: var(--text-primary);
   line-height: 1;
 }
+.pricing-price .cents {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--text-secondary);
+  align-self: flex-start;
+  margin-top: 6px;
+}
 .pricing-price .period {
   font-size: 0.9rem;
   color: var(--text-muted);
@@ -1094,13 +1102,24 @@ section { position: relative; }
   align-items: center;
   gap: 16px;
 }
-.footer-email a {
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.footer-contact a {
   color: var(--accent);
   font-weight: 500;
   font-size: 0.95rem;
   transition: color 0.3s;
 }
-.footer-email a:hover { color: var(--accent-bright); }
+.footer-contact a:hover { color: var(--accent-bright); }
+.footer-divider {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
 .footer-copy {
   font-size: 0.8rem;
   color: var(--text-muted);
